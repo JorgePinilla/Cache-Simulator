@@ -2,13 +2,20 @@
 This application simulates a cache by giving it a sample of read/write cache instructions, known as a trace file.
 
 The following files should be in the same folder:
-   -Simulator.java\n
+   -Simulator.java
+   
    -Cache.java
+   
    -Set.java
+   
    -Block.java
+   
    -Util.java
+   
    -test1.txt (trace file used for input)
+   
    -test2.txt (trace file used for input)
+   
 
 Simulator takes the following parameters: 
    -cache size(bytes)
