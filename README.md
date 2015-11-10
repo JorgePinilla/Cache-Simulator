@@ -4,6 +4,7 @@ This application simulates a cache by giving it a sample of read/write cache ins
 The following files should be in the same folder:
 
    -Simulator.java
+   
    -Cache.java
    
    -Set.java
@@ -17,11 +18,16 @@ The following files should be in the same folder:
    -test2.txt (trace file used for input)
    
 
-Simulator takes the following parameters: 
+Simulator takes the following parameters:
+
    -cache size(bytes)
+   
    -block size(bytes)
+   
    -associativity (where 1 is direct mapped cache)
+   
    -name of trace file
+   
 
 To run the simulator use the following command: (make sure files have been compiled)
 
@@ -34,8 +40,13 @@ instruction will do, either read or write to cache, and third column is the addr
 cache where the read or write will take place).
 
 The simulator outputs the following:
+
    -# of sets in cache
+   
    -# of read instructions
+   
    -# of write instructions
+   
    -# of cache misses
+   
    -# of cache hits
