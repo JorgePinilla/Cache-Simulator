@@ -59,3 +59,4 @@ Things to be done:
       
       -add additional parameters to calculate cache performance
       
+      -add 64 bit instruction functionality
