@@ -50,3 +50,12 @@ The simulator outputs the following:
       -# of cache misses
    
       -# of cache hits
+
+Things to be done:
+
+      -implement write back policy
+      
+      -implement write through policy
+      
+      -add additional parameters to calculate cache performance
+      
